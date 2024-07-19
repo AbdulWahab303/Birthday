@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://abdulwahab303.github.io/Birthday",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
